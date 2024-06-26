@@ -20,9 +20,9 @@ public class Product {
     @Column(name ="id")
     private Long id;
 
-    //establishes relationship between products and categorys. Uses category_id as foreign Key
+    //establishes relationship between products and categories. Uses category_id as foreign Key
     @ManyToOne
-    @JoinColumn(name = "category_id, nullable false")
+    @JoinColumn(name = "category_id", nullable =false)
     private ProductCategory category;
 
     @Column(name ="sku")
