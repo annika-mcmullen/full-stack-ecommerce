@@ -8,7 +8,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.math.BigDecimal;
 import java.sql.Date;
 
-//decalres product as an entity and declares the initial attributes
+//declares product as an entity and declares the initial attributes
 @Entity
 @Table(name="product")
 @Data
